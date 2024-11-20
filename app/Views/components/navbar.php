@@ -8,22 +8,15 @@
     <div class="navbar-collapse collapse" id="navbarsExample09">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="<?= BASEURL?>" style="color: white;">Home</a>
+          <a class="nav-link" aria-current="page" href="<?= BASEURL?>" style="color: white;">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= BASEURL.'about'?>" style="color: white;">Figurines</a>
+          <a class="nav-link" href="<?= BASEURL.'about'?>" style="color: white;">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= BASEURL.'products'?>" style="color: white;">Books</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?= BASEURL.'products'?>" style="color: white;">Table Tops</a>
+          <a class="nav-link" href="<?= BASEURL.'products'?>" style="color: white;">DASHBOARD</a>
         </li>
       </ul>
-      <form class="d-flex ms-auto" style="margin-right: 100px;">
-        <a class="btn btn-outline-success me-2"  href="<?= BASEURL.'register'?>" type="button">Sign In/Register</a>
-        <a class="btn btn-sm btn-outline-secondary" type="button" href="<?= BASEURL.'dashboard'?>">My Account</a>
-      </form>
     </div>
 </div>
 </nav>
