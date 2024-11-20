@@ -7,3 +7,6 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/dashboard', 'UserController::index');
+
+
+$routes->get(from: 'about' , to: 'Home::about');
