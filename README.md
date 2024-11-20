@@ -16,8 +16,6 @@
 
 <br/>
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WST-TX32-Demo-Project)
-
 ---
 
 <details>
