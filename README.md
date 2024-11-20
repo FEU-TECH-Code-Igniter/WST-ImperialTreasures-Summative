@@ -41,6 +41,7 @@
 ### Members
 
 - **Project Manager**: [@jajaa17](https://github.com/jajaa17)
+- **Frontend**: [@cenTimo13](https://github.com/cenTimo13)
 - **Q.A**: [@SlurpeeSlurper](https://github.com/SlurpeeSlurper)
 - **Backend (DB)**: [@JSediii](https://github.com/JSediii)
 - **Backend**: [@Lusho](https://github.com/Lusho)
