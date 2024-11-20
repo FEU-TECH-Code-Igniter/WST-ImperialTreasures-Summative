@@ -47,6 +47,9 @@
 - **Backend**: [@Lusho](https://github.com/Lusho)
 - **UI/UX**: Darryl Tobias
 
+### Figma Prototype
+![Figma](https://www.figma.com/proto/kcuY4Jw0HPyrBZM6ZvtQE3/summative?node-id=5-2&node-type=frame&t=ogmjt49D7wBumphT-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A2)
+
 
 ### Technology
 
@@ -57,7 +60,7 @@
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
-
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 
 ## Resources
