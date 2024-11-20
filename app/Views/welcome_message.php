@@ -7,8 +7,6 @@ use CodeIgniter\Database\BaseUtils;
 <title>Imperial Treasures</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('content') ?>
-
-        <!-- Header-->
         <header class="bg-dark py-5">
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
@@ -21,7 +19,6 @@ use CodeIgniter\Database\BaseUtils;
                 </div>
             </div>
         </header>
-        <!-- Features section-->
         <section class="py-5 border-bottom" id="features">
             <div class="container px-5 my-5">
                 <div class="row gx-5">
@@ -34,19 +31,11 @@ use CodeIgniter\Database\BaseUtils;
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
                         <h2 class="h4 fw-bolder">Great Company</h2>
                         <p>Yes, We are a Great Company and we are proud of it, but sometimes..... Oops Project Manager is Here.</p>
-                        <a class="text-decoration-none" href="#!">
-                            Call to action
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
                     </div>
                     <div class="col-lg-4">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                        <h2 class="h4 fw-bolder">Featured title</h2>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                        <a class="text-decoration-none" href="#!">
-                            Call to action
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <h2 class="h4 fw-bolder">Nothing</h2>
+                        <p>As a Front End i dont know what to put here, so i will just put this here just for the sake of it because i am a good boy</p>
                     </div>
                 </div>
             </div>
