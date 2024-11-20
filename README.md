@@ -66,7 +66,6 @@
 | Title                | Purpose                                                  | Link              |
 |----------------------|----------------------------------------------------------|-------------------|
 | CodeIgniter 4 Docs   | Reference for CodeIgniter 4 framework usage              | https://codeigniter.com/userguide4 |
-| Tailwind CSS Docs    | Tailwind CSS guidelines and utilities                    | https://tailwindcss.com/docs       |
 | MySQL Documentation  | Resource for MySQL database management                   | https://dev.mysql.com/doc          |
 | Infinity Free Server | PHP Server for both MySQL and PHP (CodeIgniter)          | https://www.infinityfree.com/      |
 | XAMPP                | XAMPP is the most popular PHP development environment    | https://www.apachefriends.org/     |
