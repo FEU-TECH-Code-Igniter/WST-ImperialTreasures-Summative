@@ -26,11 +26,10 @@
     <li>
       <a href="#overview">Overview</a>
       <ol>
-        <li><a href="#key-components">Key Components</a></li>
+        <li><a href="#members">Members</a></li>
         <li><a href="#technology">Technology</a></li>
       </ol>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#resources">Resources</a></li>
   </ol>
 </details>
@@ -40,8 +39,6 @@
 ## Overview
 
 **Imperial Treasures** is a demo IT solution developed to illustrate a simplified payment platform using CodeIgniter 4 and Bootstrap 5. This project serves as a website for the TX32-24 Summative 3
-
-### Members
 
 ### Members
 
