@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  Experience a simplified IT process with DataLogo, showcasing the capabilities of CodeIgniter 4 and Tailwind CSS.
+  Experience a simplified IT process with Imperial Treasures! as we innovate through technology!
 </div>
 
 <br/>
