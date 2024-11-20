@@ -51,10 +51,6 @@
 - **Backend**: [@Lusho](https://github.com/Lusho)
 - **UI/UX**: Darryl Tobias
 
-- User authentication (registration and login)
-- Secure transaction management
-- Basic user dashboard for transaction insights
-- Clean, efficient interface using Tailwind CSS
 
 ### Technology
 
