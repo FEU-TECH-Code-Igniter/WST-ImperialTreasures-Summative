@@ -7,5 +7,4 @@ use CodeIgniter\Database\BaseUtils;
 <title>Imperial Treasures</title>
 <?= $this->endSection('title') ?>
 <?= $this->section('content') ?>
-<p>Meow</p>
 <?= $this->endSection('content') ?>
