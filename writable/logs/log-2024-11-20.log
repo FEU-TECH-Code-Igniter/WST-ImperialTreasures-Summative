@@ -1,36 +1,48 @@
-CRITICAL - 2024-11-20 00:38:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "about.php"
-[Method: GET, Route: about]
-in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
- 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
- 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('about', [], true)
- 3 APPPATH\Controllers\Home.php(14): view('about')
- 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
- 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-11-20 00:38:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "about.php"
-[Method: GET, Route: about]
-in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
- 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
- 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('about', [], true)
- 3 APPPATH\Controllers\Home.php(14): view('about')
- 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
- 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2024-11-20 00:38:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "about.php"
-[Method: GET, Route: about]
-in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
- 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
- 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('about', [], true)
- 3 APPPATH\Controllers\Home.php(14): view('about')
- 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
- 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
- 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 01:10:04 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'summative' in C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'summative', 3306, '', 0)
+#1 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\app\Controllers\UserController.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\CodeIgniter.php(933): App\Controllers\UserController->index()
+#8 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'summative' in C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\app\Controllers\UserController.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\CodeIgniter.php(933): App\Controllers\UserController->index()
+#7 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Program Files\xampp\htdocs\WST-ImperialTreasures-Summative\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-11-20 01:10:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'summative'
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_promotional`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -14,7 +14,7 @@
           <a class="nav-link" href="<?= BASEURL.'about'?>" style="color: white;">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= BASEURL.'products'?>" style="color: white;">DASHBOARD</a>
+          <a class="nav-link" href="<?= BASEURL.'dashboard'?>" style="color: white;">DASHBOARD</a>
         </li>
       </ul>
     </div>
