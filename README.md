@@ -48,7 +48,7 @@
 - **UI/UX**: Darryl Tobias
 
 ### Figma Prototype
-![Figma](https://www.figma.com/proto/kcuY4Jw0HPyrBZM6ZvtQE3/summative?node-id=5-2&node-type=frame&t=ogmjt49D7wBumphT-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A2)
+https://www.figma.com/proto/kcuY4Jw0HPyrBZM6ZvtQE3/summative?node-id=5-2&node-type=frame&t=ogmjt49D7wBumphT-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A2
 
 
 ### Technology
