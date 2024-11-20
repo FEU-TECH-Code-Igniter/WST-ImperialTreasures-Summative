@@ -11,19 +11,12 @@
           <a class="nav-link" aria-current="page" href="<?= BASEURL?>" style="color: white;">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= BASEURL.'about'?>" style="color: white;">Figurines</a>
+          <a class="nav-link" href="<?= BASEURL.'about'?>" style="color: white;">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= BASEURL.'products'?>" style="color: white;">Books</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?= BASEURL.'products'?>" style="color: white;">Table Tops</a>
+          <a class="nav-link" href="<?= BASEURL.'dashboard'?>" style="color: white;">Dashboard</a>
         </li>
       </ul>
-      <form class="d-flex ms-auto" style="margin-right: 100px;">
-        <a class="btn btn-outline-success me-2"  href="<?= BASEURL.'register'?>" type="button">Sign In/Register</a>
-        <a class="btn btn-sm btn-outline-secondary" type="button" href="<?= BASEURL.'dashboard'?>">My Account</a>
-      </form>
     </div>
 </div>
 </nav>
